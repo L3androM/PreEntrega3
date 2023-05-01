@@ -1,15 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
-.botonera {
-  background-color: cadetblue;
-}
-.botonera li a {
-  color: white;
-  font-size: 1.2em;
-}
-.botonera li a:hover {
-  color: gray;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -54,8 +43,19 @@ footer ul {
 }
 footer ul li a {
   text-decoration: none;
-  font-size: textMd;
+  font-size: 1.2em;
   color: white;
+}
+
+.botonera {
+  background-color: cadetblue;
+}
+.botonera li a {
+  color: white;
+  font-size: 1.2em;
+}
+.botonera li a:hover {
+  color: gray;
 }
 
 .filters a {

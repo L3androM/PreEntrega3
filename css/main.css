@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+.botonera {
+  background-color: cadetblue;
+}
+.botonera li a {
+  color: white;
+  font-size: 1.2em;
+}
+.botonera li a:hover {
+  color: gray;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -47,36 +58,6 @@ footer ul li a {
   color: white;
 }
 
-.botonera {
-  background-color: cadetblue;
-}
-.botonera li a {
-  color: white;
-  font-size: 1.2em;
-}
-.botonera li a:hover {
-  color: gray;
-}
-
-.actions {
-  justify-content: flex-end;
-}
-.actions button {
-  margin-left: 10px;
-  background-color: cadetblue;
-  color: white;
-  padding: 9px;
-  border: solid 1px;
-  border-radius: 3px;
-}
-.actions input {
-  padding: 8px;
-  border-radius: 3px;
-  border: solid 1px;
-  color: gray;
-  background-color: rgb(243, 245, 245);
-}
-
 .filters a {
   color: black;
   font-size: 1.2em;
@@ -100,6 +81,25 @@ footer ul li a {
 .filters li {
   padding-left: 10px;
   list-style: none;
+}
+
+.actions {
+  justify-content: flex-end;
+}
+.actions button {
+  margin-left: 10px;
+  background-color: cadetblue;
+  color: white;
+  padding: 9px;
+  border: solid 1px;
+  border-radius: 3px;
+}
+.actions input {
+  padding: 8px;
+  border-radius: 3px;
+  border: solid 1px;
+  color: gray;
+  background-color: rgb(243, 245, 245);
 }
 
 @media (width < 768px) {

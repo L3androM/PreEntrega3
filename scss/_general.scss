@@ -1,0 +1,36 @@
+.bg-btn{
+    background-color: $mainColor;
+    color: white;
+}
+label{
+    font-size: $textLg;
+}
+
+header img{
+    width: 100%;
+}
+footer{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $mainColor;
+    a{
+        text-decoration: none;
+    }
+    svg{
+        padding: 5px;
+        width: 40px;
+        margin-top: 2px;
+        fill: white;
+        margin-right: 15px;
+    }
+    ul{
+        list-style: none;
+        li a{
+            text-decoration: none;
+            font-size: 1rem;
+            color: white;
+        }
+    }
+}

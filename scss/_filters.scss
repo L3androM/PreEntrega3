@@ -1,0 +1,27 @@
+.filters{
+    color: $keyColor;
+    font-size: 1em;
+    text-decoration: none;
+    margin-bottom: 4px;
+    text-transform: lowercase;
+    &:hover{
+        color: $mainColor;
+    }
+    span{
+        display: block;
+        color: rgb(0, 0, 0);
+        margin: 10px 0;
+        letter-spacing: 1px;
+    }
+    select{
+        color: black;
+        border: none;
+        background-color: white;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+    li{
+        padding-left: 10px;
+        list-style: none;
+    }
+}

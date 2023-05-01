@@ -1,0 +1,12 @@
+.botonera{
+    background-color: $mainColor;
+    li{
+        a{
+            color: white;
+            font-size: $textLg;
+            &:hover{
+                color: $secondaryColor;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.actions{
+    justify-content: flex-end;
+    button{
+        margin-left: 10px;
+        background-color: $mainColor;
+        color: white;
+        padding: 9px;
+        border: solid 1px;
+        border-radius: 3px;
+    }
+    input{
+        padding: 8px;
+        border-radius: 3px;
+        border: solid 1px;
+        color: $secondaryColor;
+        background-color: rgb(243, 245, 245);
+    }
+}

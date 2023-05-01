@@ -1,11 +1,13 @@
 .filters{
-    color: $keyColor;
-    font-size: 1em;
-    text-decoration: none;
-    margin-bottom: 4px;
-    text-transform: lowercase;
-    &:hover{
-        color: $mainColor;
+    a{
+        color: $keyColor;
+        font-size: $textLg;
+        text-decoration: none;
+        margin-bottom: 4px;
+        text-transform: lowercase;
+        &:hover{
+            color: $mainColor;
+        }
     }
     span{
         display: block;
@@ -14,14 +16,14 @@
         letter-spacing: 1px;
     }
     select{
-        color: black;
+        color: $keyColor;
         border: none;
         background-color: white;
         margin-bottom: 10px;
-        font-size: 1em;
+        font-size: $textMd;
     }
     li{
         padding-left: 10px;
-        list-style: none;
+        list-style:none;
     }
 }

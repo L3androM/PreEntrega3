@@ -1,3 +1,10 @@
+*{
+    font-family: $mainFont;
+}
+body{
+    background-image: url(../img/patron-fondo/patron-fondo.png);
+    background-attachment: fixed;
+}
 .bg-btn{
     background-color: $mainColor;
     color: white;
@@ -29,7 +36,7 @@ footer{
         list-style: none;
         li a{
             text-decoration: none;
-            font-size: 1rem;
+            font-size: textMd;
             color: white;
         }
     }

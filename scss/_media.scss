@@ -1,0 +1,53 @@
+@media (width < 768px){
+    .tiendA{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+        grid-template-areas: 
+        "actions"
+        "filters"
+        "monitor"
+        "mouse"
+        "teclado";
+    }
+    .tienda section{
+        margin: 10px;
+        text-align: start;
+        justify-content: start;
+    }
+    .tienda .monitor{
+        flex-direction: column;
+        border: solid $secondaryColor 1px;
+        padding-top: 5px;
+        background-color: white;
+    }
+    .tienda .mouse{
+        flex-direction: column;
+        border: solid $secondaryColor 1px;
+        padding-top: 10px;
+        background-color: white;
+    }
+    .tienda .teclado{
+        flex-direction: column;
+        border: solid $secondaryColor 1px;
+        background-color: white;
+    }
+    .actions{
+        justify-content: center;
+        margin-top: 5px;
+    }
+        .actions input{
+            width: auto;
+            background-color: white;
+            font-size: $textLg;
+            border: solid 1px $secondaryColor;
+        }
+            .actions button svg{
+                width: 30px;
+            }
+    .filters span,
+    .filters ul,
+    .filters label,
+    .filters input[type="checkbox"]{
+        display: none;
+    }
+}

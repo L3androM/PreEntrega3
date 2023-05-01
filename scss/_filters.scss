@@ -5,9 +5,6 @@
         text-decoration: none;
         margin-bottom: 4px;
         text-transform: lowercase;
-        &:hover{
-            color: $mainColor;
-        }
     }
     span{
         display: block;
@@ -20,7 +17,7 @@
         border: none;
         background-color: white;
         margin-bottom: 10px;
-        font-size: $textMd;
+        font-size: $textLg;
     }
     li{
         padding-left: 10px;

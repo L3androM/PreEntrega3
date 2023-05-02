@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-image: url(../img/patron-fondo/patron-fondo.png);
@@ -18,60 +21,12 @@ header img {
   width: 100%;
 }
 
-footer {
-  padding: 0 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: cadetblue;
-}
-footer a {
-  text-decoration: none;
-}
-footer svg {
-  padding: 5px;
-  width: 40px;
-  margin-top: 2px;
-  fill: white;
-  margin-right: 15px;
-}
-footer ul {
-  list-style: none;
-}
-footer ul li a {
-  text-decoration: none;
-  font-size: textMd;
-  color: white;
-}
-
 .botonera {
   background-color: cadetblue;
 }
 .botonera li a {
   color: white;
   font-size: 1.2em;
-}
-.botonera li a:hover {
-  color: gray;
-}
-
-.actions {
-  justify-content: flex-end;
-}
-.actions button {
-  margin-left: 10px;
-  background-color: cadetblue;
-  color: white;
-  padding: 9px;
-  border: solid 1px;
-  border-radius: 3px;
-}
-.actions input {
-  padding: 8px;
-  border-radius: 3px;
-  border: solid 1px;
-  color: gray;
-  background-color: rgb(243, 245, 245);
 }
 
 .filters a {
@@ -97,6 +52,55 @@ footer ul li a {
 .filters li {
   padding-left: 10px;
   list-style: none;
+}
+
+.actions {
+  justify-content: flex-end;
+}
+.actions button {
+  margin-left: 10px;
+  background-color: cadetblue;
+  color: white;
+  padding: 9px;
+  border: solid 1px;
+  border-radius: 3px;
+}
+.actions input {
+  padding: 8px;
+  border-radius: 3px;
+  border: solid 1px;
+  color: gray;
+  background-color: rgb(243, 245, 245);
+}
+
+footer {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer svg {
+  padding: 5px;
+  width: 40px;
+  margin-top: 2px;
+  fill: white;
+  margin-right: 15px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
 }
 
 @media (width < 768px) {
@@ -148,4 +152,4 @@ footer ul li a {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
